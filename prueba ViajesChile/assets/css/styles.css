@@ -1,0 +1,73 @@
+#inicio {
+    background-color: #000000; 
+    color: #ffff;
+    font-family: "Roboto", sans-serif; 
+}
+
+h2 {
+    font-weight: 500;
+  }
+
+hr {
+    border: 1px solid #3a3a3a; 
+    margin: 10px 0; 
+}
+
+/* Sección ¿Quiénes Somos? */
+#nosotros .rectangle,
+#nosotros .rectangle-large {
+    width: 100%; 
+    max-width: 410px;
+    height: 28px; 
+    background-color: #00fbff;
+}
+
+@media (max-width: 768px) {
+    .nosotros-section {
+        display: none;
+    }
+}
+
+/* Sección de Destacados */
+#destacados .card img{
+    color: #ffff; 
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 150px;
+}
+
+#destacados .card{
+    background-color: #00fbff; 
+}
+
+.card-title,
+.card-text {
+    text-align: center; 
+}
+
+/* FOOTER - VIAJES CHILE */
+#mi-footer .col-md-6 p {
+    margin: 25px 0; 
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    margin-left: 50px; 
+    margin-right: 300px;
+}
+
+/* Iconos de redes sociales */
+#mi-footer .col-md-6 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: -100px; 
+}
+
+#mi-footer .col-md-6 a {
+    margin-left: 5px; 
+}
+
+.text-start {
+    text-align: left;
+}
+
